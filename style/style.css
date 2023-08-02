@@ -1,0 +1,246 @@
+body {
+  font-family: "Barlow", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  background-color: #070111ec;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #320d6d;
+}
+
+img.red-social-nav {
+  width: 1.2rem;
+}
+
+header {
+  background-color: #0f0c29;
+}
+
+div.publicidad {
+  background-image: linear-gradient(
+      to left,
+      transparent,
+      rgba(27, 26, 27, 0.829)
+    ),
+    url("../assets/img/publicidad/digitalers.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  font-weight: 600;
+}
+
+.navbar {
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.navbar-toggler {
+    background-color:#7734e2;
+}
+
+.navbar-brand {
+  color: #7734e2;
+}
+
+.navbar-brand:hover {
+  color: #f1f1f1;
+}
+
+header a.nav-link {
+  color: #d3d1d8;
+  border: 1px solid #4f2361d2;
+  border-radius: 13px;
+  margin-left: 1rem;
+}
+
+header a.nav-link:hover {
+  background-color: #8a2cdc8a;
+  color: #f1f1f1;
+}
+
+div.publicidad  {
+  height: 30rem;
+}
+
+span#noticia-header {
+  font-weight: 700;
+  color: #9b60fa;
+}
+
+div.publicidad  button {
+  background-color: #8a2cdc8a;
+  color: #f1f1f1;
+  font-weight: 600;
+}
+
+div.publicidad  button:hover {
+  background-color: #f1f1f1;
+  color: #743dcc;
+}
+
+main {
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+main div.noticias h2 {
+  color: #f1f1f1;
+}
+
+main div.noticias .card {
+  box-shadow: 15px 15px 30px rgb(10, 10, 10),
+    -15px -15px 30px rgba(45, 3, 90, 0.582);
+}
+
+main div.noticias .card:hover {
+  box-shadow: 0px 0px 20px 1px #0575dfe7;
+  border: 1px solid rgba(236, 236, 236, 0.454);
+}
+
+main div.comentarios {
+  background: #abbaab;
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+  background: linear-gradient(to right, #ffffff, #c1c4c1);
+}
+
+main div.comentarios .card {
+  box-shadow: 10px 12px 5px 0px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 10px 12px 5px 0px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 10px 12px 5px 0px rgba(0, 0, 0, 0.27);
+}
+
+main div.comentarios .card:hover {
+  box-shadow: 0px 0px 20px 1px #1770c4ad;
+  border: 1px solid rgba(236, 236, 236, 0.454);
+}
+
+main div.comentarios .agregar-comentario .btn {
+  background-color: #381570;
+  color: #f1f1f1;
+  font-weight: 600;
+}
+
+main div.comentarios .agregar-comentario .btn:hover {
+  border: 1px solid #3815707c;
+  background-color: #f1f1f1;
+  color: #381570;
+}
+
+.img-avatar {
+  width: 5rem;
+}
+
+.comantarios div.card {
+  height: 6rem;
+}
+
+div.suscribirse h2 span {
+  color: #3291e9d8;
+}
+
+div.suscribirse input {
+  margin-right: 10px;
+}
+
+div.suscribirse button {
+  border: none;
+  background-color: #3291e9d8;
+  color: #f1f1f1;
+  font-weight: 600;
+}
+
+div.suscribirse button:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.caja-1 {
+  height: 25rem;
+}
+
+.caja {
+  height: 100%;
+}
+
+.carousel-caption {
+  background-color: #0f0c29a9;
+  color: rgb(245, 245, 245);
+  font-weight: 600;
+}
+
+#carousel-1 {
+  background-image: linear-gradient(to left, transparent, rgb(48, 29, 48)),
+    url("../assets/img/carusel/img-1.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+}
+
+#carousel-2 {
+  background-image: linear-gradient(to left, transparent, rgb(48, 29, 48)),
+    url("../assets/img/carusel/img-2.jpg");
+  background-position: unset;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#carousel-3 {
+  background-image: linear-gradient(to left, transparent, rgb(48, 29, 48)),
+    url("../assets/img/carusel/img-3.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+footer {
+  background: #abbaab;
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+  background: linear-gradient(to right, #ffffff, #c1c4c1);
+}
+
+footer h2 {
+  color: #7734e2;
+  font-weight: 900;
+}
+
+footer h2:hover {
+  color: #5c18ca7c;
+}
+
+footer .menu-redes li a {
+  color: #320875d0;
+  font-weight: 400;
+}
+
+footer .menu-redes li a:hover {
+  color: #62a1dbd8;
+}
+
+.redes-footer li img {
+  width: 1.4rem;
+}
+
+
+@media (min-width: 576px) {
+    #contenedor-noticias div.card {
+        width: 20rem;
+        height: 34rem;
+    }
+  }
+  
+
+@media (max-width: 992px) {
+  header a.nav-link {
+    border: none;
+  }
+}
+
+
